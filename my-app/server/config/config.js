@@ -2,7 +2,7 @@
     const fs = require("fs")
     const config = {}
     config.PORT = process.env.PORT || 8080
-    config.ROOT = `${__dirname}/../../client`
+    config.ROOT = `${__dirname}/../../build`
     config.LOG_FILE = `${__dirname}/../logs/node.js.log`
     config.COUNTRIES = `${__dirname}/../../data/countries.json`
     config.API_URL = 'http://universities.hipolabs.com/search?country='
