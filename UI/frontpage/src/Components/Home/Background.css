@@ -1,0 +1,99 @@
+
+.background {
+  height: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0; /* Change 'none' to '0' */
+  position: fixed;
+  object-fit: cover;
+  z-index: -1;
+  background-color: #EDF4F5 ;
+  color:black;
+  overflow-y: scroll;
+}
+
+.tv-frame {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: black;
+  padding-bottom: 5px;
+  border-radius: 20px; /* Adjust radius as needed */
+  border: 2px solid #333; /* Adjust border thickness as needed */
+}
+
+.image {
+  max-width: 100%; /* Ensures the image doesn't exceed the container width */
+  max-height: 100%; /* Ensures the image doesn't exceed the container height */
+  display: block;
+  border-radius: 15px; /* Adjust radius to match TV frame */
+  overflow: hidden; /* Hides the overflow if the image is larger than the container */
+}
+
+
+.buttons {
+  position: absolute;
+  bottom: -250px; /* Adjust the distance from the bottom */
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Style for each button */
+.buttons button {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 20px; /* Adjust the border-radius to create a cylindrical shape */
+  padding: 10px 20px; /* Adjust padding as needed */
+  margin: 0 10px; /* Adjust margin between buttons */
+  cursor: pointer;
+}
+
+/* Hover effect for buttons */
+.buttons button:hover {
+  opacity: 0.8; /* Adjust opacity for hover effect */
+}
+
+/* Active (pressed) state for buttons */
+.buttons button:active {
+  transform: translateY(1px); /* Adjust the downward movement on click */
+}
+
+/* Learn More */
+.learn-more {
+  margin-top: 1200px; /* Adjust margin as needed */
+  text-align: center;
+}
+
+/* Picture Buttons */
+.picture-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px; /* Adjust margin as needed */
+}
+
+.picture-button {
+  position: relative;
+  width: 120px; /* Adjust size as needed */
+  height: 120px; /* Adjust size as needed */
+  margin: 0 30px; /* Adjust spacing between buttons */
+  cursor: pointer;
+  box-sizing: border-box;
+
+}
+
+.overlay {
+  position: absolute;
+  top: -20%; /* Position the text at the vertical center */
+  left: 75%; /* Position the text at the horizontal center */
+  transform: translate(-50%, -50%); /* Center the text within the container */
+  color: black;
+  font-size: 14px; /* Adjust font size as needed */
+  font-weight: bold; /* Optionally, make the text bold */
+  text-align: center; /* Center the text horizontally */
+  pointer-events: none; /* Ensure that the overlay doesn't interfere with click events */
+}
+

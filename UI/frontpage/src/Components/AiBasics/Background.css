@@ -1,0 +1,36 @@
+.background{
+    height: 100%;
+    width: 100%;
+    float: left;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: none;
+    position: fixed;
+    object-fit: cover;
+    z-index: -1;
+    background-color: #EDF4F5 ;
+    color:black
+}
+
+
+.tv-frame {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 8px; /* Adjust padding as needed */
+    background-color: black;
+    border-radius: 20px; /* Adjust radius as needed */
+    border: 4px solid #333; /* Adjust border thickness as needed */
+  }
+
+
+ .image {
+    max-width: 100%; /* Ensures the image doesn't exceed the container width */
+    max-height: 100%; /* Ensures the image doesn't exceed the container height */
+    display: block;
+    border-radius: 15px; /* Adjust radius to match TV frame */
+    overflow: hidden; /* Hides the overflow if the image is larger than the container */
+  }
