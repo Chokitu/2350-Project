@@ -1,26 +1,30 @@
-import React, {useEffect, useState} from 'react'
+import React, { useState } from 'react';
 
 function App() {
+  const [prompt, setPrompt] = useState('');
+  const [response, setResponse] = useState(null);
 
-  const [backendData, setBackendData] = useState([{}])
-
-  useEffect(() => {
-    fetch('/api')
-      .then(response => response.json())
-      .then(data => {setBackendData(data)})
-  }, [])
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+    const res = await fetch(`/openai?prompt=${encodeURIComponent(prompt)}`);
+    const data = await res.json();
+    setResponse(data);
+  };
 
   return (
     <div>
-      {(typeof backendData.users === 'undefined') ? (
-        <p>No users found</p>
-      ) : (
-        backendData.users.map((user, index) => (
-          <p key={index}>{user}</p>
-        ))
-      )}
+      <form onSubmit={handleSubmit}>
+        <input
+          type="text"
+          value={prompt}
+          onChange={e => setPrompt(e.target.value)}
+          placeholder="Write your prompt here"
+        />
+        <button type="submit">Submit</button>
+      </form>
+      {response && <pre>{JSON.stringify(response, null, 2)}</pre>}
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
