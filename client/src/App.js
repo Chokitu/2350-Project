@@ -1,29 +1,25 @@
-import React, { useState } from 'react';
+import React from 'react';
+import Navbar from './components/Navbar';
+import './App.css';
+import Home from './components/pages/Home';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Services from './components/pages/Services';
+import Products from './components/pages/Products';
+import SignUp from './components/pages/SignUp';
 
 function App() {
-  const [prompt, setPrompt] = useState('');
-  const [response, setResponse] = useState(null);
-
-  const handleSubmit = async (event) => {
-    event.preventDefault();
-    const res = await fetch(`/openai?prompt=${encodeURIComponent(prompt)}`);
-    const data = await res.json();
-    setResponse(data);
-  };
-
   return (
-    <div>
-      <form onSubmit={handleSubmit}>
-        <input
-          type="text"
-          value={prompt}
-          onChange={e => setPrompt(e.target.value)}
-          placeholder="Write your prompt here"
-        />
-        <button type="submit">Submit</button>
-      </form>
-      {response && <pre>{JSON.stringify(response, null, 2)}</pre>}
-    </div>
+    <>
+      <Router>
+        <Navbar />
+        <Switch>
+          <Route path='/' exact component={Home} />
+          <Route path='/services' component={Services} />
+          <Route path='/products' component={Products} />
+          <Route path='/sign-up' component={SignUp} />
+        </Switch>
+      </Router>
+    </>
   );
 }
 
