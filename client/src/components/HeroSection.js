@@ -39,13 +39,13 @@ function HeroSection() {
           Tools
         </Button>
       </div>
-      <div className='image-container'>
+      {/* <div className='image-container'>
         <img src="/images/ai-basics.webp" alt="Image 1" className="image-container-img" />
         <img src="/images/tools.webp" alt="Image 2" className="image-container-img" />
         <img src="/images/tutorials.webp" alt="Image 3" className="image-container-img" />
         <img src="/images/community.webp" alt="Image 4" className="image-container-img" />
         <img src="/images/news.webp" alt="Image 5" className="image-container-img" />
-      </div>
+      </div> */}
     </div>
   );
 }

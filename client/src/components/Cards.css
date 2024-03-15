@@ -46,7 +46,8 @@ h1 {
 
 .cards__item__pic-wrap {
   position: relative;
-  width: 100%;
+  width: auto;
+  height: 100px;
   padding-top: 67%;
   overflow: hidden;
 }
