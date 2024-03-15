@@ -10,27 +10,27 @@ function Cards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='images/ai-basics.webp'
+              src='images/ai-basics.png'
               text='Learn about the basics of AI'
               path='/services'
             />
             <CardItem
-              src='images/tools.webp'
+              src='images/tools.png'
               text='Get tool recommendations for all your projects'
               path='/products'
             />
             <CardItem
-              src='images/tutorials.webp'
+              src='images/tutorials.png'
               text='Watch tutorials on how to use AI in your projects'
               path='/sign-up'
             />
             <CardItem
-              src='images/community.webp'
+              src='images/community.png'
               text='Connect with other developers in the community'
               path='/services'
             />
             <CardItem
-              src='images/news.webp'
+              src='images/news.png'
               text='Stay updated with the latest news in AI'
               path='/services'
             />
