@@ -6,9 +6,13 @@ import './HeroSection.css';
 function HeroSection() {
   return (
     <div className='hero-container'>
-      <video src='/videos/video-1.mp4' autoPlay loop muted />
-      <h1>ADVENTURE AWAITS</h1>
-      <p>What are you waiting for?</p>
+      {/* <video src='/videos/video-1.mp4' autoPlay loop muted /> */}
+      <img src="images/Main-Hero-Background.webp" alt="Hero Section" className="hero-section-image" />
+      <div className='hero-text'>
+        <h1>Ai Learnt</h1>
+        <hr></hr>
+        <p>Unlocking AI secrets for everyone!</p>
+      </div>
       <div className='hero-btns'>
         <Button
           className='btns'
