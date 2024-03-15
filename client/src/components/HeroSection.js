@@ -16,10 +16,11 @@ function HeroSection() {
       <div className='hero-btns'>
         <Button
           className='btns'
-          buttonStyle='btn--outline'
+          buttonStyle='btn--primary'
           buttonSize='btn--large'
+          onClick={console.log('hey')}
         >
-          GET STARTED
+          Home
         </Button>
         <Button
           className='btns'
@@ -27,8 +28,23 @@ function HeroSection() {
           buttonSize='btn--large'
           onClick={console.log('hey')}
         >
-          WATCH TRAILER <i className='far fa-play-circle' />
+          Ai Basics
         </Button>
+        <Button
+          className='btns'
+          buttonStyle='btn--primary'
+          buttonSize='btn--large'
+          onClick={console.log('hey')}
+        >
+          Tools
+        </Button>
+      </div>
+      <div className='image-container'>
+        <img src="/images/ai-basics.webp" alt="Image 1" className="image-container-img" />
+        <img src="/images/tools.webp" alt="Image 2" className="image-container-img" />
+        <img src="/images/tutorials.webp" alt="Image 3" className="image-container-img" />
+        <img src="/images/community.webp" alt="Image 4" className="image-container-img" />
+        <img src="/images/news.webp" alt="Image 5" className="image-container-img" />
       </div>
     </div>
   );

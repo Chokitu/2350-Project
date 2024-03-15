@@ -1,5 +1,5 @@
 :root {
-  --primary: #fff;
+  --primary: black;
 }
 
 .btn {
@@ -12,8 +12,9 @@
 
 .btn--primary {
   background-color: var(--primary);
-  color: #242424;
+  color: white;
   border: 1px solid var(--primary);
+  border-radius: 25px;
 }
 
 .btn--outline {
