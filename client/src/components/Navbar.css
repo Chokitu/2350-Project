@@ -29,9 +29,12 @@
   align-items: center;
 }
 
-.fa-typo3 {
-  margin-left: 0.5rem;
-  font-size: 1.8rem;
+.navbar-logo-image {
+  height: 15rem; 
+  width: auto; 
+  max-height: 60px; 
+  min-height: 20px; 
+  margin-right: 10px; 
 }
 
 .nav-menu {
