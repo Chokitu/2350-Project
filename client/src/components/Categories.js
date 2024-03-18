@@ -26,6 +26,8 @@ import {
   MyFooter,
 } from "./styles";
 
+import styled from "@emotion/styled";
+
 const cards = [
   { imageName: "basics.png", heading: "Basics" },
   { imageName: "nlp.png", heading: "NLP" },
@@ -35,12 +37,16 @@ const cards = [
   { imageName: "impact.png", heading: "Impact" },
 ];
 
+const MyGrid = styled(Grid)`
+
+`;
+
 function Categories() {
   const theme = useTheme();
   return (
     <>
-      <MyContainer maxWidth="md">
-        <Grid container spacing={4}>
+      <MyContainer maxWidth="xl">
+        <MyGrid container spacing={4}>
           {cards.map((card, index) => (
             <Grid item key={index} xs={12} sm={6} md={4}>
               <MyCard>
@@ -61,7 +67,7 @@ function Categories() {
               </MyCard>
             </Grid>
           ))}
-        </Grid>
+        </MyGrid>
       </MyContainer>
     </>
   );

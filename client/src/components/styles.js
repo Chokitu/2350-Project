@@ -35,22 +35,28 @@ export const MyStyledPhotoCamera = styled(PhotoCamera)`
 `;
 
 export const MyContainer = styled(Container)`
-  padding: 20px 0;
+  padding: 60px 0;
+  background-color: #e9f2f6;
 `;
 
 export const MyCard = styled(Card)`
   height: 100%;
   display: flex;
   flex-direction: column;
+  background-image: url("/images/tabs.png");
+  background-size: cover;
+  background-color: #e9f2f6;
+  padding: 60px;
 `;
 
 export const MyCardMedia = styled(CardMedia)`
-    padding-top: 56.25%;
-    transition: transform 0.3s ease-in-out;
+  padding-top: 56.25%;
+  transition: transform 0.3s ease-in-out;
 
-    &:hover {
-        transform: scale(1.1);
-    }
+  &:hover {
+    transform: scale(1.1);
+  }
+  background-color: #e9f2f6;
 `;
 
 export const MyCardContent = styled(CardContent)`

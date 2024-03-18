@@ -4,9 +4,9 @@ import Categories from '../Categories';
 
 function Products() {
   return (
-    <>
+    <div className='products'>
       <Categories />
-    </>
+    </div>
   );
 }
 
