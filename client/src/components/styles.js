@@ -21,8 +21,9 @@ export const MyStyledComponent = styled.div`
   background-color: lightgrey;
 `;
 
-export const MyStyledTypography = styled(Typography)`
-  color: ${(props) => props.theme.palette.secondary.main};
+export const MyTypography = styled(Typography)`
+  color: white;
+  background-color: black;
 `;
 
 export const MyStyledButton = styled(Button)`
@@ -44,7 +45,12 @@ export const MyCard = styled(Card)`
 `;
 
 export const MyCardMedia = styled(CardMedia)`
-  padding-top: 56.25%;
+    padding-top: 56.25%;
+    transition: transform 0.3s ease-in-out;
+
+    &:hover {
+        transform: scale(1.1);
+    }
 `;
 
 export const MyCardContent = styled(CardContent)`
@@ -54,5 +60,5 @@ export const MyCardContent = styled(CardContent)`
 export const MyFooter = styled.footer`
   padding: 50px 0;
   background-color: black;
-  color: white
+  color: white;
 `;
