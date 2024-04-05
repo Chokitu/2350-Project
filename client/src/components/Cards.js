@@ -17,22 +17,22 @@ function Cards() {
             <CardItem
               src='images/tools.png'
               text='Get tool recommendations for all your projects'
-              path='/products'
+              path='https://zapier.com/blog/best-ai-productivity-tools/'
             />
             <CardItem
               src='images/tutorials.png'
               text='Watch tutorials on how to use AI in your projects'
-              path='/sign-up'
+              path='https://www.youtube.com/playlist?list=PL9ooVrP1hQOGHNaCT7_fwe9AabjZI1RjI'
             />
             <CardItem
               src='images/community.png'
               text='Connect with other developers in the community'
-              path='/services'
+              path='https://globalai.community/'
             />
             <CardItem
               src='images/news.png'
               text='Stay updated with the latest news in AI'
-              path='/services'
+              path='https://www.wsj.com/tech/ai'
             />
           </ul>
         </div>
