@@ -124,7 +124,7 @@ const WorldWar2 = ({ onNext, selectedLanguage }) => {
   
   const generateResponse = async (prompt) => {
     try {
-      const response = await fetch("http://localhost:8080/chat", {
+      const response = await fetch("https://gentle-pear-houndstooth.cyclic.app/chat", {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'

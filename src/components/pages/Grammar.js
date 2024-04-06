@@ -75,7 +75,7 @@ const GrammarGame = ({ onNext, selectedLanguage }) => {
     // Implement AI response generation logic based on the selected prompt
     if (prompt === 1) {
       // Example: Sending a request to a backend server to interact with the OpenAI API
-      axios.post("http://localhost:8080/chat", { prompt: `${translatedPrompts[0]}\n${essay}` })
+      axios.post("https://gentle-pear-houndstooth.cyclic.app/chat", { prompt: `${translatedPrompts[0]}\n${essay}` })
 
         .then((res) => {
           const responseData = res.data; // Assuming the response contains both response and feedback
