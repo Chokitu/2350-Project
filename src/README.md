@@ -1,0 +1,1 @@
+Just run node on the index.js and then npm start on the reactjs-chatgpt

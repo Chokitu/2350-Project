@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.app-container {
+  text-align: center;
+  background-color: rgb(233, 240, 244);
+  margin:auto;
+}
+
+.inner-box{
+  background-color: rgb(253, 253, 253);
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+.header {
+  text-align: center;
+  padding: 10px;
+}
+
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tips {
+  display: flex;
+  align-items: center;
+}
+
+.tip {
+  flex: 1;
+  background-color: #f3f4f6;
+  padding: 12px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tip-arrow {
+  display: none; /* Hide the arrow icons */
+}
+
+.response-container {
+  margin-top: 16px;
+  width: 100%;
+}
+
+.response {
+  background-color: #f3f4f6;
+  padding: 12px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 16px;
+}
+
+.input-field {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.submit-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+.submit-button:focus {
+  outline: none;
+}
+
+.words{
+  padding:20px;
+}
