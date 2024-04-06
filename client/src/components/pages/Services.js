@@ -1,6 +1,13 @@
 import React from 'react';
 import '../../App.css';
+import GameUI from '../GameUI';
 
-export default function Services() {
-  return <h1 className='services'>SERVICES</h1>;
+function Services() {
+  return (
+    <div className='services'>
+      <GameUI />
+    </div>
+  );
 }
+
+export default Services;

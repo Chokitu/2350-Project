@@ -17,6 +17,14 @@ function HeroSection() {
         <h1>Ai Learnt</h1>
         <hr></hr>
         <p>Unlocking AI secrets for everyone!</p>
+        <Button
+          className="btns"
+          buttonStyle="btn--secondary"
+          buttonSize="btn--large-secondary"
+          to="/services"
+        >
+          Try it out! <i className="far fa-play-circle"></i>
+        </Button>
       </div>
       <div className="hero-btns">
         <Button
