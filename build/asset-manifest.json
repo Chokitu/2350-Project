@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/AILearnt/static/css/main.7988d2a8.css",
-    "main.js": "/AILearnt/static/js/main.a292b2a3.js",
+    "main.css": "/AILearnt/static/css/main.1b37a5da.css",
+    "main.js": "/AILearnt/static/js/main.63d634fd.js",
     "static/media/impact.png": "/AILearnt/static/media/impact.7801c263aa1807b18262.png",
     "static/media/Main-Hero-Background.webp": "/AILearnt/static/media/Main-Hero-Background.16cea784b3b1af3706a4.webp",
     "static/media/ailearnt-logo.png": "/AILearnt/static/media/ailearnt-logo.d0b3d3873ba0045e9090.png",
@@ -17,11 +17,11 @@
     "static/media/tutorials.png": "/AILearnt/static/media/tutorials.71c3398b98246a70db21.png",
     "static/media/news.png": "/AILearnt/static/media/news.33522235ba155f0ab9f3.png",
     "index.html": "/AILearnt/index.html",
-    "main.7988d2a8.css.map": "/AILearnt/static/css/main.7988d2a8.css.map",
-    "main.a292b2a3.js.map": "/AILearnt/static/js/main.a292b2a3.js.map"
+    "main.1b37a5da.css.map": "/AILearnt/static/css/main.1b37a5da.css.map",
+    "main.63d634fd.js.map": "/AILearnt/static/js/main.63d634fd.js.map"
   },
   "entrypoints": [
-    "static/css/main.7988d2a8.css",
-    "static/js/main.a292b2a3.js"
+    "static/css/main.1b37a5da.css",
+    "static/js/main.63d634fd.js"
   ]
 }

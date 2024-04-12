@@ -35,8 +35,9 @@ export const MyStyledPhotoCamera = styled(PhotoCamera)`
 `;
 
 export const MyContainer = styled(Container)`
-  padding: 60px 0;
   background-color: #e9f2f6;
+  overflow: auto;
+  height: 80%;
 `;
 
 export const MyCard = styled(Card)`

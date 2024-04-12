@@ -52,7 +52,9 @@ const cards = [
   { imageName: impact, heading: "Impact" },
 ];
 
-const MyGrid = styled(Grid)``;
+const MyGrid = styled(Grid)`
+  overflow: auto;
+`;
 
 function Categories() {
   const theme = useTheme();
