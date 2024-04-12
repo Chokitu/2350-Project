@@ -34,10 +34,12 @@ To set up the development environment for AiLearnt:
 ## How to Run Locally
 
 To run AiLearnt locally after setting up your environment:
+**First, download the server files** [here](https://github.com/Chokitu/aiLearntBackEnd) 
+    
 
 1. **Start the backend server**:
    ```bash
-   node server.js
+   node index.js
    ```
 
 2. **Start the frontend application**:
