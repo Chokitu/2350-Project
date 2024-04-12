@@ -63,8 +63,9 @@ This command executes the test cases defined in the project, ensuring all functi
 
 - **Public URL**: [Public URL](https://chokitu.github.io/AILearnt)
 - **Project Demo**: [Demo Link](https://www.youtube.com/watch?v=JoLJa6DIWNM)
-- **Reports and Presentations**: [Reports Link](#)
+- **Reports and Presentations**: [Report #2 Link](https://docs.google.com/document/d/1ZDMLgq5j63ORDfloBMvPdKiu_DmZKbIKkjplEZWUP64/edit)
 - **GitHub Repository**: [GitHub Link](https://github.com/Chokitu/2350-Project/edit/main/README.md)
+- **Backend Repository**: [Repository Link](https://github.com/Chokitu/aiLearntBackEnd)
 
 ## Features
 
