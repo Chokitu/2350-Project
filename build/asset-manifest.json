@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/finalTest/static/css/main.7988d2a8.css",
+    "main.js": "/finalTest/static/js/main.a292b2a3.js",
+    "static/media/impact.png": "/finalTest/static/media/impact.7801c263aa1807b18262.png",
+    "static/media/Main-Hero-Background.webp": "/finalTest/static/media/Main-Hero-Background.16cea784b3b1af3706a4.webp",
+    "static/media/ailearnt-logo.png": "/finalTest/static/media/ailearnt-logo.d0b3d3873ba0045e9090.png",
+    "static/media/nlp.png": "/finalTest/static/media/nlp.85e874040cc49a380d96.png",
+    "static/media/tabs.png": "/finalTest/static/media/tabs.2e37217409230b086c46.png",
+    "static/media/recommendations.png": "/finalTest/static/media/recommendations.c0bb6190b2830a492b71.png",
+    "static/media/ai-basics.png": "/finalTest/static/media/ai-basics.0a3f237d80b3d5cda45d.png",
+    "static/media/robotics.png": "/finalTest/static/media/robotics.274211ff3d5ce3d4af6f.png",
+    "static/media/img.png": "/finalTest/static/media/img.9add21a4690a2f156410.png",
+    "static/media/tools.png": "/finalTest/static/media/tools.c1ad0cb1d037d62a2926.png",
+    "static/media/community.png": "/finalTest/static/media/community.263bdd50ae7d7c7b8bb4.png",
+    "static/media/basics.png": "/finalTest/static/media/basics.9bfbec277f87a966103f.png",
+    "static/media/tutorials.png": "/finalTest/static/media/tutorials.71c3398b98246a70db21.png",
+    "static/media/news.png": "/finalTest/static/media/news.33522235ba155f0ab9f3.png",
+    "index.html": "/finalTest/index.html",
+    "main.7988d2a8.css.map": "/finalTest/static/css/main.7988d2a8.css.map",
+    "main.a292b2a3.js.map": "/finalTest/static/js/main.a292b2a3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7988d2a8.css",
+    "static/js/main.a292b2a3.js"
+  ]
+}
