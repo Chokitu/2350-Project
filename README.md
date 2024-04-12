@@ -59,7 +59,7 @@ This command executes the test cases defined in the project, ensuring all functi
 
 ## Additional Resources
 
-- **Public URL**: [Public URL](https://alexcodes100.github.io/finalTest)
+- **Public URL**: [Public URL](https://chokitu.github.io/AILearnt)
 - **Project Demo**: [Demo Link](https://www.youtube.com/watch?v=JoLJa6DIWNM)
 - **Reports and Presentations**: [Reports Link](#)
 - **GitHub Repository**: [GitHub Link](https://github.com/Chokitu/2350-Project/edit/main/README.md)
