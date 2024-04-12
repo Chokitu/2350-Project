@@ -37,7 +37,7 @@ To run AiLearnt locally after setting up your environment:
 
 1. **Start the backend server**:
    ```bash
-   node server.js
+   node index.js
    ```
 
 2. **Start the frontend application**:
